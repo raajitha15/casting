@@ -1,0 +1,24 @@
+class TaskClass3 
+{
+	public static void main(String[] args) 
+	{
+		char ch1='a';
+		byte b=(byte)ch1;
+		System.out.println(b);
+		char ch2='b';
+		short c=(short)ch2;
+		System.out.println(c);
+		char ch3='c';
+		int d=(int)ch3;
+		System.out.println(d);
+		char ch4='d';
+		long e=(long)ch4;
+		System.out.println(e);
+		char ch5='e';
+	    float f=(float)ch5;
+		System.out.println(f);
+		char ch6='h';
+		double g=(double)ch6;
+		System.out.println(g);
+	}
+}
