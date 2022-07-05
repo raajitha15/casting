@@ -1,0 +1,24 @@
+class TaskClass5 
+{
+	public static void main(String[] args) 
+	{
+		int i1=10;
+		byte a=(byte)i1; 
+		System.out.println(a);
+		int i2=98;
+		char b=(char)i2;
+		System.out.println(b);
+		int i3=20;
+		short c=(short)i3;
+		System.out.println(c);
+		int i4=30;
+		long d=i4;
+		System.out.println(d);
+		int i5=40;
+		float e=i5;
+		System.out.println(e);
+		int i6=50;
+		double f=i6;
+		System.out.println(f);
+	}
+}
