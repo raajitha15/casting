@@ -1,0 +1,24 @@
+class TaskClass4 
+{
+	public static void main(String[] args) 
+	{
+		short sh1=10;
+		byte a=(byte)sh1;
+		System.out.println(a);
+		short sh2=98;
+		char b=(char)sh2;
+		System.out.println(b);
+		short sh3=30;
+		int c=sh3;
+		System.out.println(c);
+		short sh4=40;
+		long d=sh4;
+		System.out.println(d);
+		short sh5=50;
+		float e=sh5;
+		System.out.println(e);
+		short sh6=60;
+		double f=sh6;
+		System.out.println(f);
+	}
+}
