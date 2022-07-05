@@ -1,0 +1,43 @@
+class A 
+{
+	public static void display()
+	{
+		System.out.println("class a display is created");
+	}
+	public static void show()
+	{
+		System.out.println("class b show is created");
+	}
+}
+class B extends A
+{
+	public static void display()
+	{
+		System.out.println("class b display is created");
+	}
+	public static void view()
+	{
+		System.out.println("class b view is created");
+	}
+}
+class HidingUpcasting
+{
+	public static void main(String[]args)
+	{
+		System.out.println("class a object is created");
+		A a=new A();
+		a.display();
+		a.show();
+		System.out.println("******************************");
+		System.out.println("class b object is created");
+		B b=new B();
+		b.display();
+		b.view();
+		System.out.println("********************************");
+		System.out.println("upcasting object is created");
+		A ob=new B();
+		ob.display();
+		ob.show();
+	}
+}
+
