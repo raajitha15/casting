@@ -1,0 +1,24 @@
+class TaskClass7 
+{
+	public static void main(String[] args) 
+	{
+		float f1=10.8f;
+		byte a=(byte)f1;
+		System.out.println(a);
+		float f2=100f;
+		char b=(char)f1;
+		System.out.println(b);
+		float f3=30f;
+		short c=(short)f3;
+		System.out.println(c);
+		float f4=40f;
+		int d=(int)f4;
+		System.out.println(d);
+		float f5=50f;
+		long e=(long)f5;
+		System.out.println(e);
+		float f6=60f;
+		double f=f6;
+		System.out.println(f);
+	}
+}
