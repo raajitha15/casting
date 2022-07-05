@@ -1,0 +1,45 @@
+class A 
+{
+	public void display()
+	{
+		System.out.println("class a display is created");
+	}
+	public void show()
+	{
+		System.out.println("class a show is created");
+	}
+}
+class B extends A
+{
+	public void display()
+	{
+		System.out.println("class b display is created");
+	}
+	public void view()
+	{
+		System.out.println("class b view is created");
+	}
+}
+class OverridingDowncasting
+{
+	public static void main(String[]args)
+	{
+		System.out.println("class a object is created");
+		A a2=new A();
+		a2.display();
+		a2.show();
+		System.out.println("*****************************");
+		System.out.println("class b object is created");
+		B b2=new B();
+		b2.display();
+		b2.view();
+		System.out.println("*******************************");
+		System.out.println("downcasting object is created");
+		A ob1=new B();
+		B ob2=(B) ob1;
+		ob2.display();
+		ob2.show();
+		ob2.view();
+	}
+}
+	
