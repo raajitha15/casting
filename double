@@ -1,0 +1,24 @@
+class TaskClass8 
+{
+	public static void main(String[] args) 
+	{
+		double d1=10.2d;
+		byte a=(byte)d1;
+		System.out.println(a);
+		double d2=10.2d;
+		char b=(char)d2;
+		System.out.println(b);
+		double d3=10.2d;
+		short c=(short)d3;
+		System.out.println(c);
+		double d4=10.2d;
+		int d=(int)d4;
+		System.out.println(d);
+		double d5=10.2d;
+		long e=(long)d5;
+		System.out.println(e);
+		double d6=10.2d;
+		float f=(float)d6;
+		System.out.println(f);
+	}
+}
