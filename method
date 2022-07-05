@@ -1,0 +1,16 @@
+class MethodTest 
+{
+	public static void m1()
+	{
+		System.out.println("my name is raajitha");
+	}
+	public static void m2()
+	{
+		System.out.println("my java sir name is Mr.Jagannath sir");
+	}
+	public static void main(String[] args) 
+	{
+		m1();
+		m2();
+	}
+}
