@@ -1,0 +1,24 @@
+class TaskClass6 
+{
+	public static void main(String[] args) 
+	{
+		long l1=668696L;
+		byte a=(byte)l1;
+		System.out.println(a);
+		long l2=98985L;
+		char b=(char)l2;
+		System.out.println(b);
+		long l3=1443646L;
+		short c=(short)l3;
+		System.out.println(c);
+		long l4=4364758L;
+		int d=(int)l4;
+		System.out.println(d);
+		long l5=7895879L;
+		float e=l5;
+		System.out.println(e);
+		long l6=5758696L;
+		double f=l6;
+		System.out.println(f);
+	}
+}
