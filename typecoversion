@@ -1,0 +1,16 @@
+class TypeCoversion 
+{
+	public static void main(String[] args) 
+	{
+		//Implicit conversion:conversion done by the compiler
+		byte a=12;// 12 is stored as byte type data
+		int b=a;
+		System.out.println(a);
+		System.out.println(b);
+		//Explicit conversion: conversion of data of one type to another by the programmer is called explicit conversion
+		int c=12;//12 is stored as int type data
+		byte d=(byte)c;
+		System.out.println(c);
+		System.out.println(d);
+	}
+}
