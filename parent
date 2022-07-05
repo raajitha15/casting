@@ -1,0 +1,63 @@
+class Parent9
+{
+	public static void m1()
+	{
+		System.out.println("method 1 is created");
+	}
+	public void m2()
+	{
+		System.out.println("method 2 is created");
+	}
+	public void m3()
+	{
+		System.out.println("method 3 is created");
+	}
+}
+class Chinna1 extends Parent9
+{
+
+
+	public static void d1()
+	{
+		System.out.println("display 1 is created");
+	}
+	public void d2()
+	{
+		System.out.println("display 2 is created");
+	}
+	public void d3()
+	{
+		System.out.println("display 3 is created");
+	}
+}
+class TaskClass
+{
+	public static void main(String[]args)
+	{
+		System.out.println("parent object is created");
+		Parent9 p=new Parent9();
+		p.m1();
+		p.m2();
+		p.m3();
+		System.out.println("***************************");
+		System.out.println("child object is created");
+		Chinna1 c=new Chinna1();
+		c.d1();
+		c.d2();
+		c.d3();
+		System.out.println("****************************");
+		System.out.println("Chinna belonging to parent");
+		Parent9 ob=new Chinna1();
+		ob.m1();
+		ob.m2();
+		ob.m3();
+		System.out.println("***************************");
+		System.out.println("parent belonging to chinna");
+		Parent9 ob1=new Chinna1();
+		Chinna1 ob2=(Chinna1) ob1;
+		ob2.d1();
+		ob2.d2();
+		ob2.d3();
+	}
+
+}
