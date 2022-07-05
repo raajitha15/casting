@@ -1,0 +1,25 @@
+class TaskClass2 
+{
+	public static void main(String[] args) 
+	{
+		byte a=10;
+		char ch='b';
+		System.out.println(a);
+		System.out.println(ch);
+		byte b=20;
+		short sh=b;
+		System.out.println(sh);
+		byte c=30;
+		int i=c;
+		System.out.println(i);
+		byte d=40;
+		long ld=d;
+		System.out.println(ld);
+		byte e=50;
+		float fl=e;
+		System.out.println(fl);
+		byte f=60;
+		double g=f;
+		System.out.println(g);
+	}
+}
