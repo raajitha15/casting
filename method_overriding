@@ -1,0 +1,49 @@
+class Parent2 
+{
+	public void display()
+	{
+		System.out.println("class parent display is created");
+	}
+	public void show()
+	{
+		System.out.println("class parent show is created");
+	}
+}
+class Child2 extends Parent2 
+	{
+		public void display()
+		{
+			System.out.println("class child display is created");
+		}
+		public void view()
+		{
+			System.out.println("class child view is created");
+		}
+	}
+	class Method_Overriding
+	{
+		public static void main(String[]args)
+		{
+			System.out.println("only parent object is created");
+			Parent2 p=new Parent2();
+			p.display();
+			p.show();
+			System.out.println("*******************************");
+			System.out.println("only child object is created");
+			Child2 c=new Child2();
+			c.display();
+			c.view();
+			System.out.println("*********************************");
+			System.out.println("upcasting object is created");
+			Parent2 ob=new Child2();
+			ob.display();
+			ob.show();
+			System.out.println("*********************************");
+			System.out.println("downcasting object is created");
+			Child2 ob2=(Child2) ob;
+			ob2.display();
+			ob2.show();
+			ob2.view();
+		}
+	}
+	
