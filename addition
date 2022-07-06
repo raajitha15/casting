@@ -1,0 +1,33 @@
+public class Addition
+{
+	public static void add(byte a,int b)
+	{
+		System.out.println("add of one byte and one integer:"+ (a+b));
+	}
+	public static void add(int a,int b)
+	{
+		System.out.println("add of two integers are:"+ (a+b));
+	}
+	public static void add(int a,int b,int c)
+	{
+		System.out.println("add of three integers are:"+ (a+b+c));
+	}
+	public static void add(int a,double b)
+	{
+		System.out.println("add of one integer and one double:"+ (a+b));
+	}
+	public static void add(double a,double b)
+	{
+		System.out.println("add of one double and one double are:"+ (a+b));
+	}
+	public static void main(String[]args)
+	{
+		add(67,98);
+		add((byte)23,67);
+		add(78,88,90);
+		add(45,90.88);
+		add(45.65,87.93);
+
+	}
+}
+
